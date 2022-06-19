@@ -1,0 +1,394 @@
+body{
+    margin: 0;
+}
+.t-grey{
+    color: #414141;
+}
+.t-primary{
+   color: #5F2EEA; 
+}
+.btn-primary{   
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    background-color: #5F2EEA;
+    font-size: 14px;
+    align-items: center;
+    color: #fff;
+    padding: 12px 18px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 120px;
+    height: 40px;
+}
+.btn-second{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    background-color: #fff;
+    font-size: 14px;
+    align-items: center;
+    color: #5F2EEA;
+    padding: 12px 18px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #5F2EEA;
+
+
+}
+.header{
+
+    background-color: #fff;
+
+}
+
+.section{  
+    padding: 2% 8%;
+}
+
+.bg-grey{
+    background-color: grey;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 8%;
+}
+
+.bg-grey{
+    background-color: #f5f6f8;
+}
+.navbar-left{
+    display: flex;
+
+
+}
+.navbar-right{
+    display: flex;
+}
+
+
+.navbar-left ul li {
+    display: inline-block;
+    margin-left: 2.5rem;
+}
+
+.navbar-left ul li a {
+    font-size: 1rem;
+    text-decoration: none;   
+}
+
+.icon-box-list{
+    margin-right: 1rem;
+}
+
+.month-primary{
+    width: 127px ;
+    height: 42px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    background-color: #5F2EEA;
+    font-size: 12px;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+}
+.month-second{
+    
+        width: 127px ;
+        height: 42px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        background-color: #fff;
+        font-size: 12px;
+        color: #fff;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        text-align: center;
+    
+}
+.wrapper-month{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+.wrapper-month::-webkit-scrollbar{
+    display: none;
+}
+
+.month{
+    display: flex;
+    margin-right: 1.5rem
+}
+
+
+
+.wrapper-content-header{
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-banner img{
+    width:100% ;        
+}
+.image-banner img{
+    width: 100%;
+}
+
+
+
+/* homepage */
+
+.wrapper-option-show{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* overflow-x: auto; */
+
+}
+.now-showing{
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+}
+.view-all{
+    display: flex;
+}
+.wrapper-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+
+}
+.card{
+    display: flex;
+    border: 2px solid #fff;
+    margin: 1.5rem;
+    padding: 1rem;
+}
+.card-image{
+    width: 149px;
+    height: 234px;
+    
+}
+
+.spiderman-card{
+    background-image: url(../img/spiderman.png);
+    background-size:auto;
+}
+.lionking-card{
+    background-image: url(../img/lionking.png);
+    background-size: cover;
+}
+
+.card-details{
+    display: flex;
+    border: 2px solid #fff;
+    margin: 1.5rem;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.title-movie{
+    font-size:18px;
+    color: #14142B;
+    font-weight: 500;
+}
+.genre-movie{
+    font-size: 12px;
+    font-weight: 400;
+    color: #414141;
+
+}
+.details-movie{
+    width: 159px;
+    height: 33px;
+    border: 1px solid #5F2EEA;
+    color: #5F2EEA;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+
+.wrapper-join{
+    padding: 2% 8%;
+    border-radius: 4px;
+    box-shadow: 0px 16px 32px rgba(186, 186, 186, 0.3);
+    
+}
+.wrapper-center{
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+
+    
+}
+.btn-join{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    background-color: #5F2EEA;
+    font-size: 14px;
+    align-items: center;
+    color: #fff;
+    padding: 12px 18px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 120px;
+    height: 53px;
+    border: 1px solid #5F2EEA;
+
+
+}
+.input-email{
+    width: 306px;
+    height: 53px;
+    border: 1px solid #dedede;
+    margin-right: 1.5rem;
+    color: #dedede;
+}
+.container-join{
+    padding: 2% 8%;
+}
+
+.footer{
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-titkitz{
+    display: flex;
+    flex-direction: column;
+}
+.footer-titkitz .logo{
+    width: 170px;
+    
+}
+
+
+.footer ul{
+    list-style-type: none;
+
+}
+.footer-explorer{
+    display: flex;
+    flex-direction: column;
+}
+.footer-our-sponsor{
+    display: flex;
+    flex-direction: column;
+}
+.footer-our-sponsor{
+    width: 120px;
+}
+
+
+.title-footer{
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+/* home page punya */
+
+@media only screen and (max-width: 600px) {
+   
+   
+    .btn-signup{
+        display: none;
+    }
+    .navbar-left .list{
+        display: none;
+    }
+
+    section{
+        /* width: 100%; */
+        max-width: 600px;
+    }
+    .wrapper-content-header{
+        padding: 8% 8%;
+        width: auto;
+        flex-wrap: wrap;
+      
+    }
+    .text-banner {
+        flex-grow: 1;
+    }
+    .text-banner img{
+        width:50% ;        
+    }
+    .image-banner{
+        flex-grow: 1;
+    }
+    .wrapper-card{
+        
+        overflow-x: auto;
+    }
+    .footer{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 600px;
+    }
+
+    .footer-titkitz{
+        width: 100%;
+    }
+
+
+    .footer-explore{
+        width: 100%;
+
+    }
+    .footer-our-sponsor{
+        width: 100%;
+    
+    }
+    .follow-us{
+        width: 100%;
+        
+    }
+    .title-footer{
+    font-size: 1rem;
+}
+
+
+        
+    
+
+
+   
+  
+   
+ 
+}
+@media only screen and (min-width: 600px) {
+
+    .icon-box-list{
+        display: none;
+    }
+}
+
+
+
+
+
